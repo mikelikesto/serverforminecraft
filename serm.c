@@ -5,7 +5,7 @@
 int main () {
    char command[50];
 
-   strcpy( command, "/home/mike/minecraft/server/java/jdk-17.0.2/bin/java -Xmx6024M -Xms6024M -jar /home/mike/minecraft/server/spigot-1.18.2.jar nogui" );
+   strcpy( command, "cd /home/mike/minecraft/server && sudo /home/mike/minecraft/server/java/jdk-17.0.2/bin/java -Xmx6024M -Xms6024M -jar /home/mike/minecraft/server/spigot-1.18.2.jar nogui" );
    system(command);
 
    return(0);
